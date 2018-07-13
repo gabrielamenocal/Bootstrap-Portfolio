@@ -1,0 +1,56 @@
+/* Some comments 
+hexa Colors
+
+#F08700 --> Tangerine
+#F49F0A --> Orange
+#EFCA08 --> yellow
+#00A6A6 --> green
+#BBDEF0 --> lighblue
+#221E22 --> raisin black
+# EE5622 --> Flame
+*/
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& Global Styles &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+html{
+	box-sizing: border-box;
+}
+
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+.card-header {
+	background:linear-gradient(rgba(240,135,0,0.55), rgba(255,255,255,0.3));
+	font-style: italic;
+}
+
+body{
+font-family: 'Playfair Display', serif;
+}
+
+a{
+	color: aliceblue;
+}
+
+h1 h2 {
+	font-family: 'Spirax', cursive;
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+}
+
+.card-footer{
+	background:linear-gradient(rgba(240,135,0,0.55), rgba(255,255,255,0.3));
+
+}
+
+h3 + p {
+	text-align: center;
+}
+
+p+p{
+	text-align: center;
+}
